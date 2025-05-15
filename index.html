@@ -1,12 +1,126 @@
-
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <title>سایت HSE Widva</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HSE-Widva - صفحه اصلی</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0; padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #0a9396;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #94d2bd;
+            color: #003533;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #005f73;
+            border-bottom: 2px solid #0a9396;
+            padding-bottom: 6px;
+        }
+        ul {
+            list-style: square inside;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #005f73;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>به سایت HSE Widva خوش آمدید</h1>
-    <p>این یک نمونه صفحه برای شروع است.</p>
+    <header>HSE-Widva</header>
+    <nav>
+        <a href="#articles">مقالات</a>
+        <a href="#education">آموزش‌ها</a>
+        <a href="#forms">فرم‌ها و آیین‌نامه‌ها</a>
+        <a href="#posters">پوسترها</a>
+        <a href="#regulations">مقررات کارگاهی</a>
+    </nav>
+    <main>
+        <section id="articles">
+            <h2>مقالات</h2>
+            <p>مقالات تخصصی در حوزه ایمنی، بهداشت و محیط زیست جهت ارتقای دانش شما.</p>
+            <ul>
+                <li>برخورد با حوادث و مصدومین</li>
+                <li>انواع لوازم ایمنی در محیط کار</li>
+                <li>اصول کار ایمن و پیشگیری از حوادث</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>آموزش‌ها</h2>
+            <ul>
+                <li>پاورپوینت‌های ایمنی داربست</li>
+                <li>کار در ارتفاع</li>
+                <li>آموزش‌های اولیه در برخورد با حوادث</li>
+            </ul>
+        </section>
+
+        <section id="forms">
+            <h2>فرم‌ها و آیین‌نامه‌ها</h2>
+            <ul>
+                <li>فرم‌های سازمان کار</li>
+                <li>نحوه اعلام حادثه به اداره کار</li>
+                <li>آیین‌نامه‌های ایمنی در تراشکاری، سنگ‌بری، نقاشی، لوله‌گذاری، گودبرداری</li>
+            </ul>
+        </section>
+
+        <section id="posters">
+            <h2>پوسترها</h2>
+            <p>پوسترهای کارگاهی جهت آگاهی بیشتر پرسنل و حفظ ایمنی محیط کار.</p>
+        </section>
+
+        <section id="regulations">
+            <h2>مقررات کارگاهی</h2>
+            <ul>
+                <li>مقررات کارگاهی فولاد</li>
+                <li>مقررات آب و فاضلاب</li>
+                <li>مقررات پتروشیمی‌ها</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        © 2025 HSE-Widva | همه حقوق محفوظ است
+    </footer>
 </body>
 </html>
